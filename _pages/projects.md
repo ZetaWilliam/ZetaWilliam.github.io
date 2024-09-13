@@ -1,3 +1,4 @@
+<div style="display:none">
 ---
 layout: page
 title: Projects
@@ -62,4 +63,5 @@ horizontal: false
   </div>
   {% endif %}
 {% endif %}
+</div>
 </div>
