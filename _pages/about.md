@@ -5,7 +5,7 @@ permalink: /
 subtitle: Get up and go or sit around and die.
 
 profile:
-  align: left
+  align: right # left
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
