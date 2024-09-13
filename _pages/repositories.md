@@ -1,3 +1,4 @@
+<div style="display:none">
 ---
 layout: page
 permalink: /repositories/
@@ -45,3 +46,4 @@ nav_order: 4
   {% endfor %}
 </div>
 {% endif %}
+</div>
