@@ -7,7 +7,7 @@ subtitle: Get up and go or sit around and die.
 profile:
   align: left
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Phone: +86 18354253276</p>
     <p>Email: <a href='mailto:ZehuaWang_CPU@163.com'>ZehuaWang_CPU@163.com</a></p>
