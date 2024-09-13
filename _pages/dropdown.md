@@ -1,3 +1,4 @@
+<div style="display:none">
 ---
 layout: page
 title: submenus
@@ -14,3 +15,4 @@ children:
   - title: blog
     permalink: /blog/
 ---
+</div>
