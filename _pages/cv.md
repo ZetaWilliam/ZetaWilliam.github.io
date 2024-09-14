@@ -1,8 +1,9 @@
+---
+layout: default
+---
+<a href="{{ example_pdf.pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank"></a>
+
 <div style="display:none">
----
-layout: page
-permalink: <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank"></a>
----
 ---
 layout: cv
 permalink: /cv/
