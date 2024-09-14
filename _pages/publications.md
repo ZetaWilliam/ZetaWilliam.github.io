@@ -1,3 +1,4 @@
+<div style="display:none">
 ---
 layout: page
 permalink: /publications/
@@ -6,6 +7,7 @@ description: publications by categories in reversed chronological order. generat
 nav: true
 nav_order: 2
 ---
+</div>
 
 <!-- _pages/publications.md -->
 
