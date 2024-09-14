@@ -9,6 +9,7 @@ nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
+</div>
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -64,4 +65,4 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
-</div>
+
