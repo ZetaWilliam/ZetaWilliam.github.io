@@ -1,5 +1,8 @@
 ---
 layout: default
+title: CV
+nav: true
+nav_order: 3
 ---
 <a href="{{ example_pdf.pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank"></a>
 
