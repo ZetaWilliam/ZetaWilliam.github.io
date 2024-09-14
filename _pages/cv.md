@@ -1,10 +1,10 @@
 ---
-layout: page
-title: CV
+layout: default
 nav: true
 nav_order: 3
 ---
-<a href="{{ example_pdf.pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank"></a>
+<a href="path/myfile.pdf" title="View PDF">This is a PDF</a>
+<!-- <a href="{{ example_pdf.pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank"></a> -->
 
 <div style="display:none">
 ---
