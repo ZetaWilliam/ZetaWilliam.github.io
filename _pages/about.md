@@ -6,7 +6,7 @@ subtitle: Get up and go or sit around and die.
 
 profile:
   align: right # left
-  image: pic.jpg # prof_pic.png
+  image: prof_pic_big.png # pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Phone: +86 18354253276</p>
