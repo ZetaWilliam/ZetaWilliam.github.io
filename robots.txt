@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ZetaWilliam.github.io/sitemap.xml
+Sitemap: zackwang.cn/sitemap.xml
