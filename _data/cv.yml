@@ -15,14 +15,14 @@
       institution: China Pharmaceutical University, Nanjing, China
       year: 2025
       description:
-        - GPA: 3.8/4.0
-        - IELTS: 6.5, CET-6: 567
+        - "GPA: 3.8/4.0"
+        - "IELTS: 6.5, CET-6: 567"
         - Specialized in PBPK-PD models, focusing on drug metabolism and transport interactions.
     - title: Bachelor of Engineering in Pharmaceutical Engineering
       institution: Shandong First Medical University, Jinan, China
       year: 2022
       description:
-        - Average Score: 83.5/100
+        - "Average Score: 83.5/100"
         - Conducted research on antibacterial MOF-derived carbon materials.
 
 - title: Experience
