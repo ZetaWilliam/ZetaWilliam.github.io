@@ -35,17 +35,17 @@
   contents:
     - year: 2024
       items:
-        - "Exploring the World Scholarship, CPU: Awarded for excellence in academic performance and research contributions, supporting international exposure and collaboration in pharmaceutical studies."
+        - "Exploring the World Scholarship, CPU"
     - year: 2022-2024
       items:
-        - "Outstanding League Member, CPU: Recognized for leadership and exceptional contributions to student activities and community engagement."
-        - "Scholarship of Academic Excellence, CPU: Granted for consistently outstanding academic performance and research achievements in the field of pharmacokinetics."
+        - "Outstanding League Member, CPU"
+        - "Scholarship of Academic Excellence, CPU"
     - year: 2022
       items:
-        - "Outstanding Graduate, SDFMU: Honored as one of the top-performing graduates, reflecting academic excellence and research contributions in pharmaceutical engineering."
-    - year: 2020-2021
+        - "Outstanding Graduate, SDFMU"
+    - year: 2019-2021
       items:
-        - "Prize Scholarship, SDFMU: Awarded for high academic performance and involvement in research projects, particularly in the development of novel drug delivery systems."
+        - "Prize Scholarship, SDFMU"
 
 - title: Academic Interests
   type: nested_list
