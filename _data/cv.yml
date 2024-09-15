@@ -17,13 +17,13 @@
       description:
         - GPA: 3.8/4.0
         - IELTS: 6.5, CET-6: 567
-        - Specialized in PBPK-PD models, focusing on drug metabolism and transport interactions, with extensive experience in pharmacometrics software.
+        - Specialized in PBPK-PD models, focusing on drug metabolism and transport interactions.
     - title: Bachelor of Engineering in Pharmaceutical Engineering
       institution: Shandong First Medical University, Jinan, China
       year: 2022
       description:
         - Average Score: 83.5/100
-        - Conducted research on antibacterial MOF-derived carbon materials and participated in GMP case studies.
+        - Conducted research on antibacterial MOF-derived carbon materials.
 
 - title: Experience
   type: time_table
@@ -32,20 +32,20 @@
       institution: China Pharmaceutical University
       year: 2023 - Present
       description:
-        - Led research on Whole-body PBPK-PD models for ADCs.
-        - Developed Pop-PKPD models for Alzheimer’s disease therapy with Professors Nick Holford and Jacqueline Hannam at the University of Auckland.
+        - Led research on PBPK-PD models for ADCs.
+        - Developed Pop-PKPD models for Alzheimer’s disease therapy.
         - Collaborated on clinical projects involving drug exposure and disease progression analysis.
     - title: Research Assistant
       institution: Jiangsu Provincial Key Laboratory of Drug Metabolism and Pharmacokinetics
       year: 2022 - Present
       description:
-        - Conducted pharmacological assessments, surgical procedures, and molecular biology experiments.
-        - Published research on drug metabolism and toxicity in top-tier journals.
-    - title: Phase I Clinical Pharmacometrics Project Leader
-      institution: CPU (Industry Collaboration)
+        - Conducted pharmacological assessments and molecular biology experiments.
+        - Published research on drug metabolism and toxicity.
+    - title: Clinical Pharmacometrics Project Leader
+      institution: China Pharmaceutical University (Industry Collaboration)
       year: 2023-2024
       description:
-        - Led a clinical pharmacometrics study on new NSAID drugs, focusing on data modeling and optimization.
+        - Led clinical pharmacometrics study on NSAID drugs.
 
 - title: Open Source Projects
   type: time_table
