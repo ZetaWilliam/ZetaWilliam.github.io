@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Get up and go or sit around and die.
+subtitle: Get up and go or sit around and die. --"MAURI TU - MAURI ORA, MAURI NOHO - MAURI MATE."
 
 profile:
   align: right # left
