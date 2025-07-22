@@ -15,20 +15,20 @@
       institution: The University of Auckland, New Zealand
       year: 2025-Present
       description:
-        - "Developing population PK/PD models for anti-amyloid antibodies (lecanemab/donanemab) in Alzheimer's disease"
+        - "Developing population pharmacokinetic-pharmacodynamic (Pop-PKPD) models for anti-amyloid antibodies (e.g., lecanemab and donanemab) in Alzheimer's disease"
         - "Quantifying disease-modifying effects versus symptomatic relief using longitudinal biomarker modeling"
-        - "Identifying key covariates (ApoE ε4 genotype, BBB permeability) for personalized dosing optimization"
-        - "Prospective clinical study on exposure-response relationships in Chinese AD cohort (data collection phase)"
+        - "Identifying key covariates (e.g., body weight, age, ApoE ε4 genotype, blood-brain barrier permeability) for personalized dosing optimization"
+        - "Prospective clinical study on exposure-response relationships in AD cohort (data collection phase)"
 
     - title: Master of Pharmacokinetics
       institution: China Pharmaceutical University, China
       year: 2025
       description:
-        - "Thesis: Mechanistic modeling of antibody-drug conjugates and CNS drug transport pathology"
-        - "Developed first-in-class PBPK-PD model for trastuzumab deruxtecan and sacituzumab govitecan predicting efficacy and interstitial lung disease risk"
+        - "Thesis: Mechanistic modeling of antibody-drug conjugates (ADCs) and CNS drug transport pathology"
+        - "Developed first-in-class PBPK-PD model for Trastuzumab deruxtecan(T-DXd) and Sacituzumab govitecan(SG) predicting efficacy and interstitial lung disease(ILD) risk"
         - "Discovered novel mechanisms of blood-brain barrier transporter dysregulation in hepatic encephalopathy"
         - "Elucidated venlafaxine-induced neuropsychiatric adverse effects via PI3K/AKT/mTOR-COMT-epigenetic axis"
-        - "Led industry-sponsored Phase I NSAID clinical pharmacometrics study using WinNonlin and R"
+        - "Led industry-sponsored Phase I NSAID clinical pharmacometrics study using Phoenix WinNonlin and R"
 
     - title: Bachelor of Pharmaceutical Engineering
       institution: Shandong First Medical University, China
@@ -51,9 +51,8 @@
   contents:
     - title: Computational Pharmacometrics
       items:
-        - "Population PK/PD: Nonlinear mixed-effects modeling (NONMEM, Monolix)"
-        - "PBPK Modeling: Cross-species scaling (PK-Sim, Berkeley Madonna)"
-        - "Quantitative Systems Pharmacology: Mechanism-based disease progression modeling"
+        - "Pop-PKPD Modeling: Nonlinear mixed-effects modeling (NONMEM, Monolix, R)"
+        - "PBPK-PD Modeling: Cross-species scaling (PK-Sim, Berkeley Madonna, R)"
         - "Global Sensitivity Analysis: Sobol' method for covariate identification"
     - title: Bioanalytical Techniques
       items:
@@ -71,46 +70,52 @@
   contents:
     - year: 2025
       items:
-        - "Outstanding Graduate, China Pharmaceutical University (Top 3% of cohort)"
+        - "Outstanding Graduate, CPU"
     - year: 2024
       items:
         - "Exploring the World Scholarship for International Research"
     - year: 2022-2025
       items:
         - "Outstanding League Member (3 consecutive years)"
-        - "Academic Excellence Scholarship (3 awards)"
+        - "Academic Excellence Scholarship, CPU (3 awards)"
     - year: 2022
       items:
-        - "Outstanding Graduate, Shandong First Medical University"
-
+        - "Outstanding Graduate, SDFMU"
+    - year: 2019-2022
+      items:
+        - "Academic Excellence Scholarship, SDFMU (2 awards)"
+    - year: 2019
+      items:
+        - "Work-study Exemplary Student"
+        
 - title: Research Interests
   type: nested_list
   contents:
-    - title: Pharmacometrics & Quantitative Pharmacology
+    - title: Pharmacometrics & Clinical Pharmacology
       items:
-        - "Mechanistic PK/PD modeling of biologics and ADCs"
+        - "Mechanistic clinical PK and PD modeling"
         - "Model-informed drug development for regulatory decision making"
         - "Virtual clinical trial simulation for dose optimization"
+    - title: Translational Drug Development
+      items:
+        - "Cross-species model scaling from preclinical to clinical"
+        - "Quantitative prediction of target-mediated drug disposition"
+        - "Risk mitigation strategies for drug toxicity"
     - title: Neuropharmacology & Blood-Brain Barrier
       items:
         - "Transporter-mediated CNS drug delivery"
         - "Peripheral organ pathology effects on brain pharmacokinetics"
         - "Disease-modifying therapy development for neurodegeneration"
-    - title: Translational Drug Development
-      items:
-        - "Cross-species PBPK scaling from preclinical to clinical"
-        - "Quantitative prediction of target-mediated drug disposition"
-        - "Risk mitigation strategies for antibody-conjugate toxicity"
 
 - title: Professional Development
   type: time_table
   contents:
     - year: 2023-2024
       items:
-        - "Artificial Intelligence and Cloud Computing (Columbia University)"
-        - "Emerging Biotechnology and Global Governance (Tsinghua University)"
-        - "Big Data Applications in Public Health (Johns Hopkins University)"
+        - "Artificial Intelligence and Cloud Computing"
+        - "Emerging Biotechnology and Global Governance"
+        - "Big Data Applications in Public Health"
     - year: 2024
       items:
-        - "Advanced Probability and Statistical Theory (Bocconi University)"
-        - "Data Science for Business Analytics (University of Virginia)"
+        - "Advanced Probability and Statistical Theory"
+        - "Data Science for Business Analytics"
