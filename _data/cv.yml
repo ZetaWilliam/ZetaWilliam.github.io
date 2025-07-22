@@ -6,68 +6,111 @@
     - name: Date of Birth
       value: 23rd May 2000
     - name: Languages
-      value: English, Chinese, Cantonese, Japanese
+      value: English (Professional Proficiency), Chinese (Native), Cantonese, Japanese
 
 - title: Education
   type: time_table
   contents:
-    - title: Master’s Degree in Pharmacokinetics
-      institution: China Pharmaceutical University, Nanjing, China
-      year: Expected 2025
+    - title: PhD Candidate in Pharmacology
+      institution: The University of Auckland, New Zealand
+      year: 2025-Present
       description:
-        - "GPA: 3.8/4.0"
-        - "IELTS: 6.5, CET-6: 567"
-        - "Main research experience 1: ADC Drug Modeling and Analysis: Led the development of whole-body PBPK, semi-PBPK, and PD models for Antibody-Drug Conjugates (ADCs), identifying key factors influencing pharmacokinetics, pharmacodynamics, and toxicity. Conducted virtual population-based clinical trials, focusing on sensitivity analysis, optimizing dosing strategies, and mitigating clinical toxicities. Software: Monolix, Phoenix Winnonlin, Berkeley Madonna, PK-Sim, R."
-        - "Main research experience 2: Alzheimer’s Antibody Therapy Pop-PKPD Models: Spearheaded the development of population PKPD models, incorporating disease progression models for Alzheimer's disease patients. Analyzed the relationship between drug exposure and biomarkers to optimize personalized treatments."
-        - "Main research experience 3: Drug Metabolism and Transport Mechanisms: Investigated interactions between transporters and metabolic enzymes under pathological conditions affecting the CNS, integrating molecular biology techniques with advanced data analysis."
-        - "Main research experience 4: Phase I NSAID Clinical Pharmacometrics Study: In collaboration with industry, led a pharmacometrics study on novel NSAIDs, overseeing data modeling, parameter estimation, physicochemical property characterization, and optimization of therapeutic regimens."
+        - "Developing population PK/PD models for anti-amyloid antibodies (lecanemab/donanemab) in Alzheimer's disease"
+        - "Quantifying disease-modifying effects versus symptomatic relief using longitudinal biomarker modeling"
+        - "Identifying key covariates (ApoE ε4 genotype, BBB permeability) for personalized dosing optimization"
+        - "Prospective clinical study on exposure-response relationships in Chinese AD cohort (data collection phase)"
 
-    - title: Bachelor of Engineering in Pharmaceutical Engineering
-      institution: Shandong First Medical University, Jinan, China
+    - title: Master of Pharmacokinetics
+      institution: China Pharmaceutical University, China
+      year: 2025
+      description:
+        - "Thesis: Mechanistic modeling of antibody-drug conjugates and CNS drug transport pathology"
+        - "Developed first-in-class PBPK-PD model for trastuzumab deruxtecan and sacituzumab govitecan predicting efficacy and interstitial lung disease risk"
+        - "Discovered novel mechanisms of blood-brain barrier transporter dysregulation in hepatic encephalopathy"
+        - "Elucidated venlafaxine-induced neuropsychiatric adverse effects via PI3K/AKT/mTOR-COMT-epigenetic axis"
+        - "Led industry-sponsored Phase I NSAID clinical pharmacometrics study using WinNonlin and R"
+
+    - title: Bachelor of Pharmaceutical Engineering
+      institution: Shandong First Medical University, China
       year: 2022
       description:
-        - "Average Score: 83.5/100"
-        - "CET-4: 592"
-        - "Main research experience: Prepared various MOF-derived carbon materials for water purification tests and compared their performance under different conditions."
+        - "Synthesis and characterization of metal-organic framework-derived antibacterial carbon materials"
+        - "Performance optimization of gradient graphene sponges for water purification applications"
+
+- title: Publications
+  type: list
+  contents:
+    - "Wang Z, et al. Whole-body PBPK-PD model predicting pharmacokinetics, efficacy and pulmonary toxicity of topoisomerase inhibitor antibody-drug conjugates. European Journal of Pharmaceutical Sciences (Under Revision) - Awarded Excellent Poster, 14th National Drug Metabolism Conference"
+    - "Zhi H, Wang Z, et al. Chronic liver injury induces cerebral carnitine deficiency through downregulation of blood-brain barrier organic cation transporters OCT1/2 and OCTN2. Drug Metabolism and Disposition. 2025;53(5):100072"
+    - "Zhu X, Wang Z, et al. Physiologically-based pharmacokinetic modeling of neuroprotective agent SPT-07A using in vitro-in vivo extrapolation across species. Pharmaceutics. 2024;16(12):1596"
+    - "Zhi H, et al. Renal OCT2/MATE1 suppression in acute liver injury increases metformin systemic exposure and toxicity risk. Biomedicines. 2023;11(23):3314"
+    - "Qian L, et al. Venlafaxine upregulates cerebral catechol-O-methyltransferase via PI3K/AKT/mTOR signaling leading to methyl donor depletion and histone hypomethylation. Research Square Preprint. 2023"
+
+- title: Technical Proficiencies
+  type: nested_list
+  contents:
+    - title: Computational Pharmacometrics
+      items:
+        - "Population PK/PD: Nonlinear mixed-effects modeling (NONMEM, Monolix)"
+        - "PBPK Modeling: Cross-species scaling (PK-Sim, Berkeley Madonna)"
+        - "Quantitative Systems Pharmacology: Mechanism-based disease progression modeling"
+        - "Global Sensitivity Analysis: Sobol' method for covariate identification"
+    - title: Bioanalytical Techniques
+      items:
+        - "HPLC-MS quantification: Tissue distribution studies"
+        - "Biomolecular interaction analysis: SPR, MST, BLI"
+        - "Molecular biology: Western blot, qPCR, confocal microscopy"
+    - title: Statistical Computing
+      items:
+        - "R: Pharmacometric workflow implementation"
+        - "Python: Machine learning for biomarker discovery"
+        - "SPSS: Clinical data analysis"
 
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - "Outstanding Graduate, China Pharmaceutical University (Top 3% of cohort)"
     - year: 2024
       items:
-        - "Exploring the World Scholarship, CPU"
-    - year: 2022-2024
+        - "Exploring the World Scholarship for International Research"
+    - year: 2022-2025
       items:
-        - "Outstanding League Member, CPU"
-        - "Scholarship of Academic Excellence, CPU"
+        - "Outstanding League Member (3 consecutive years)"
+        - "Academic Excellence Scholarship (3 awards)"
     - year: 2022
       items:
-        - "Outstanding Graduate, SDFMU"
-    - year: 2019-2021
-      items:
-        - "Prize Scholarship, SDFMU"
+        - "Outstanding Graduate, Shandong First Medical University"
 
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Pharmacometrics
+    - title: Pharmacometrics & Quantitative Pharmacology
       items:
-        - "PK-PD (pharmacokinetics and pharmacodynamics) and Population Modeling: Optimizes drug design, predicts efficacy and safety, and addresses target-mediated drug disposition. Population PK/PD helps assess patient variability and supports cross-species scaling for clinical trials and precision medicine."
-        - "QSP (Quantitative Systems Pharmacology): Integrates mechanistic models with PK/PD data to guide drug development, optimize dosing, and enhance understanding of complex biological systems."
-        - "Immunogenicity: Addresses immune responses and nonlinear kinetics in large molecule drugs, ensuring therapeutic outcomes in clinical and industrial applications."
-        - "Regulatory and Clinical Exemptions: Supports regulatory submissions and potentially streamlines clinical trials with trial exemptions, accelerating drug development and approval."
-        - "Web-based Models: Used for simulating drug behavior, visualizing results, and facilitating real-time decision-making in collaboration with clinicians and regulators."
-    - title: Pharmacology and Pathology
+        - "Mechanistic PK/PD modeling of biologics and ADCs"
+        - "Model-informed drug development for regulatory decision making"
+        - "Virtual clinical trial simulation for dose optimization"
+    - title: Neuropharmacology & Blood-Brain Barrier
       items:
-        - "Drug Transport and BBB Interaction: Investigated transporters' roles (e.g., OCTs, MATE1) in drug disposition across the blood-brain barrier, focusing on how peripheral diseases like liver pathology affect CNS drug exposure."
-        - "CNS Pharmacokinetics and Drug Metabolism: Explored CNS drug distribution and efficacy in the context of metabolic changes in peripheral organs."
-        - "Peripheral Organ Pathology and CNS Dysfunction: Examined the impact of peripheral diseases, like liver injury, on CNS drug metabolism using in vivo and in vitro models."
-        - "Neuroprotective Drug Development: Researched the development of drugs aimed at protecting CNS function, particularly in cases where peripheral pathology leads to secondary CNS damage."
-        - "Cancer Therapy with Large Molecule Drugs: Focused on developing and optimizing Antibody-Drug Conjugates (ADCs) for the treatment of cancers such as breast and gastric cancer, with an emphasis on PK-PD and clinical outcomes."
-        - "Drug Addiction and Withdrawal Treatment."
-- title: Other Interests
-  type: list
+        - "Transporter-mediated CNS drug delivery"
+        - "Peripheral organ pathology effects on brain pharmacokinetics"
+        - "Disease-modifying therapy development for neurodegeneration"
+    - title: Translational Drug Development
+      items:
+        - "Cross-species PBPK scaling from preclinical to clinical"
+        - "Quantitative prediction of target-mediated drug disposition"
+        - "Risk mitigation strategies for antibody-conjugate toxicity"
+
+- title: Professional Development
+  type: time_table
   contents:
-    - "Photography and Filmmaking: Experienced in photography and micro-movie production, having received multiple provincial and school-level awards. Skilled in new media management and content creation."
-    - "Chess: Over 10 years of competitive chess experience, with a history of winning various provincial chess competitions."
-    - "Sports: Proficient in swimming, table tennis, and badminton, with a focus on maintaining a healthy balance between academics and physical activities."
+    - year: 2023-2024
+      items:
+        - "Artificial Intelligence and Cloud Computing (Columbia University)"
+        - "Emerging Biotechnology and Global Governance (Tsinghua University)"
+        - "Big Data Applications in Public Health (Johns Hopkins University)"
+    - year: 2024
+      items:
+        - "Advanced Probability and Statistical Theory (Bocconi University)"
+        - "Data Science for Business Analytics (University of Virginia)"
