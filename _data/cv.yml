@@ -1,121 +1,121 @@
-- title: General Information
+- title: Professional Summary
   type: map
   contents:
     - name: Full Name
-      value: Zehua Wang (Zack Wang)
-    - name: Date of Birth
-      value: 23rd May 2000
+      value: Zehua (Zack) Wang
+    - name: Current Role
+      value: Doctoral Candidate, School of Medicine, University of Auckland
+    - name: Field
+      value: Quantitative pharmacology, pharmacometrics, and model-informed dosing
+    - name: Location
+      value: Auckland, New Zealand
+    - name: Email
+      value: <a href="mailto:zwan942@aucklanduni.ac.nz">zwan942@aucklanduni.ac.nz</a>
+    - name: University Profile
+      value: <a href="https://profiles.auckland.ac.nz/zack-wang" target="_blank" rel="noopener noreferrer">profiles.auckland.ac.nz/zack-wang</a>
     - name: Languages
-      value: English (Professional Proficiency), Chinese (Native), Cantonese, Japanese
+      value: English; Chinese (Mandarin); Chinese (Cantonese)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD Candidate in Pharmacology
-      institution: The University of Auckland, New Zealand
+    - title: Doctoral Candidate in Pharmacology and Clinical Pharmacology
+      institution: University of Auckland, Faculty of Medical and Health Sciences, School of Medicine
       year: 2025-Present
       description:
-        - "Developing population pharmacokinetic-pharmacodynamic (Pop-PKPD) models for anti-amyloid antibodies (e.g., lecanemab and donanemab) in Alzheimer's disease"
-        - "Quantifying disease-modifying effects versus symptomatic relief using longitudinal biomarker modeling"
-        - "Identifying key covariates (e.g., body weight, age, ApoE ε4 genotype, blood-brain barrier permeability) for personalized dosing optimization"
-        - "Prospective clinical study on exposure-response relationships in AD cohort (data collection phase)"
+        - "Doctoral research: Advancing the Evidence for Model-Based Dosing in the Clinical Setting."
+        - "Evaluates how model-informed dosing tools such as NextDose can support dosing, sampling, and implementation decisions for high-risk medicines."
+        - "Uses clinical trial simulation, population PK/PD modelling, optimal design, and retrospective assessment of model-based dosing frameworks."
 
-    - title: Master of Pharmacokinetics
-      institution: China Pharmaceutical University, China
-      year: 2025
+    - title: Master of Science
+      institution: China Pharmaceutical University, Nanjing, China
+      year: 2022-2025
       description:
-        - "Thesis: Mechanistic modeling of antibody-drug conjugates (ADCs) and CNS drug transport pathology"
-        - "Developed first-in-class PBPK-PD model for Trastuzumab deruxtecan(T-DXd) and Sacituzumab govitecan(SG) predicting efficacy and interstitial lung disease(ILD) risk"
-        - "Discovered novel mechanisms of blood-brain barrier transporter dysregulation in hepatic encephalopathy"
-        - "Elucidated venlafaxine-induced neuropsychiatric adverse effects via PI3K/AKT/mTOR-COMT-epigenetic axis"
-        - "Led industry-sponsored Phase I NSAID clinical pharmacometrics study using Phoenix WinNonlin and R"
+        - "Research in pharmacokinetics, PBPK/PD modelling, drug disposition, and translational pharmacology."
+        - "First author of a PBPK-PD model of topoisomerase inhibitor antibody-drug conjugates published in European Journal of Pharmaceutical Sciences."
 
-    - title: Bachelor of Pharmaceutical Engineering
-      institution: Shandong First Medical University, China
-      year: 2022
+    - title: Bachelor of Engineering
+      institution: Shandong First Medical University, Jinan, China
+      year: 2018-2022
       description:
-        - "Synthesis and characterization of metal-organic framework-derived antibacterial carbon materials"
-        - "Performance optimization of gradient graphene sponges for water purification applications"
+        - "Training in pharmaceutical engineering, laboratory methods, formulation-related research, and data analysis."
 
-- title: Publications
-  type: list
-  contents:
-    - "Wang Z, et al. Whole-body PBPK-PD model predicting pharmacokinetics, efficacy and pulmonary toxicity of topoisomerase inhibitor antibody-drug conjugates. European Journal of Pharmaceutical Sciences (Under Revision) - Awarded Excellent Poster, 14th National Drug Metabolism Conference"
-    - "Zhi H, Wang Z, et al. Chronic liver injury induces cerebral carnitine deficiency through downregulation of blood-brain barrier organic cation transporters OCT1/2 and OCTN2. Drug Metabolism and Disposition. 2025;53(5):100072"
-    - "Zhu X, Wang Z, et al. Physiologically-based pharmacokinetic modeling of neuroprotective agent SPT-07A using in vitro-in vivo extrapolation across species. Pharmaceutics. 2024;16(12):1596"
-    - "Zhi H, et al. Renal OCT2/MATE1 suppression in acute liver injury increases metformin systemic exposure and toxicity risk. Biomedicines. 2023;11(23):3314"
-    - "Qian L, et al. Venlafaxine upregulates cerebral catechol-O-methyltransferase via PI3K/AKT/mTOR signaling leading to methyl donor depletion and histone hypomethylation. Research Square Preprint. 2023"
-
-- title: Technical Proficiencies
-  type: nested_list
-  contents:
-    - title: Computational Pharmacometrics
-      items:
-        - "Pop-PKPD Modeling: Nonlinear mixed-effects modeling (NONMEM, Monolix, R)"
-        - "PBPK-PD Modeling: Cross-species scaling (PK-Sim, Berkeley Madonna, R)"
-        - "Global Sensitivity Analysis: Sobol' method for covariate identification"
-    - title: Bioanalytical Techniques
-      items:
-        - "HPLC-MS quantification: Tissue distribution studies"
-        - "Biomolecular interaction analysis: SPR, MST, BLI"
-        - "Molecular biology: Western blot, qPCR, confocal microscopy"
-    - title: Statistical Computing
-      items:
-        - "R: Pharmacometric workflow implementation"
-        - "Python: Machine learning for biomarker discovery"
-        - "SPSS: Clinical data analysis"
-
-- title: Honors and Awards
+- title: Selected Research
   type: time_table
   contents:
+    - title: Model-based dosing evidence in routine clinical care
+      institution: University of Auckland
+      year: 2025-Present
+      description:
+        - "Uses clinical trial simulation and population PK/PD modelling to evaluate how model-informed dosing tools may support dosing, sampling, and implementation decisions for high-risk medicines."
+        - "Keeps assumptions, uncertainty, and limits of model-based inference explicit for clinical, regulatory, and health-system readers."
+
+    - title: AUC-guided vancomycin clinical trial simulation
+      institution: University of Auckland
+      year: 2026
+      description:
+        - "Built an R/NONMEM/Wings for NONMEM workflow comparing Bayesian target-concentration intervention with empirical trough-guided dosing under clinically realistic execution events."
+        - "The N=200 reproduction run tracked AUC24 target-window attainment, dosing delays, missed or cancelled doses, missing samples, and dropout."
+        - "Reports simulation findings as design evidence, not as direct clinical recommendations."
+
+    - title: Translational PBPK/PD and drug-disposition modelling
+      institution: China Pharmaceutical University
+      year: 2022-2025
+      description:
+        - "Developed and contributed to PBPK, PBPK/PD, and transporter-mediated drug-disposition analyses across antibody-drug conjugates, neuroprotective agents, and liver-injury models."
+
+- title: Selected Publications
+  type: list
+  contents:
+    - "Wang Z, Zhu J, Sang L, Tang L, Zhang S, Tan Y, Zhao Y, Hao K. PBPK-PD model for predicting pharmacokinetics, tumor growth inhibition, and toxicity risks of topoisomerase inhibitor ADCs in mice and humans. European Journal of Pharmaceutical Sciences. 2025;213:107234. doi:10.1016/j.ejps.2025.107234."
+    - "Zhu X, Kong W, Wang Z, Liu X, Liu L. Prediction of SPT-07A Pharmacokinetics in Rats, Dogs, and Humans Using a Physiologically-Based Pharmacokinetic Model and In Vitro Data. Pharmaceutics. 2024;16(12):1596. doi:10.3390/pharmaceutics16121596."
+    - "Zhi H, Zhongyan Wang, Zhu X, Wu W, Yang L, Dai Y, Zehua Wang, Jiang L, et al. Chronic liver injury decreases levels of cerebral carnitine and acetylcarnitine in rats partly due to the downregulation of organic cation transporters OCT1/2 and OCTN2 at the blood-brain barrier. Drug Metabolism and Disposition. 2025;53(5):100072. doi:10.1016/j.dmd.2025.100072."
+    - "Zhi H, Dai Y, Su L, Yang L, Wu W, Zehua Wang, Zhu X, Liu L. Thioacetamide-Induced Acute Liver Injury Increases Metformin Plasma Exposure by Downregulating Renal OCT2 and MATE1 Expression and Function. Biomedicines. 2023;11(12):3314. doi:10.3390/biomedicines11123314."
+
+- title: Technical Capabilities
+  type: nested_list
+  contents:
+    - title: Pharmacometrics and clinical pharmacology
+      items:
+        - "Population PK and PK/PD modelling; exposure-response and disease-progression modelling."
+        - "Clinical trial simulation, model-informed dosing, optimal sampling, and scenario analysis."
+        - "Model evaluation with diagnostic plots, simulation-based checks, sensitivity analyses, and traceable assumptions."
+    - title: Software and reproducible workflows
+      items:
+        - "R, NONMEM, Wings for NONMEM, Monolix, Phoenix WinNonlin, PK-Sim, and Berkeley Madonna."
+        - "R Markdown or Quarto-style reporting, Git-based version control, and automated tables and figures."
+    - title: Biomedical and translational methods
+      items:
+        - "PBPK/PD modelling, in vitro-in vivo extrapolation, transporter-mediated disposition, HPLC-MS, qPCR, and Western blotting."
+
+- title: Honours and Service
+  type: time_table
+  contents:
+    - year: 2026
+      items:
+        - "Judging and Prizing Committee Co-Lead, HealtheX 2026, Faculty of Medical and Health Sciences."
     - year: 2025
       items:
-        - "Outstanding Graduate, CPU"
+        - "Outstanding Graduate, China Pharmaceutical University."
     - year: 2024
       items:
-        - "Exploring the World Scholarship for International Research"
-    - year: 2022-2025
-      items:
-        - "Outstanding League Member (3 consecutive years)"
-        - "Academic Excellence Scholarship, CPU (3 awards)"
+        - "Exploring the World Scholarship for International Research."
+        - "Excellent Poster, 14th National Drug Metabolism Conference."
     - year: 2022
       items:
-        - "Outstanding Graduate, SDFMU"
-    - year: 2019-2022
-      items:
-        - "Academic Excellence Scholarship, SDFMU (2 awards)"
-    - year: 2019
-      items:
-        - "Work-study Exemplary Student"
-        
+        - "Outstanding Graduate, Shandong First Medical University."
+
 - title: Research Interests
   type: nested_list
   contents:
-    - title: Pharmacometrics & Clinical Pharmacology
+    - title: Model-informed dosing
       items:
-        - "Mechanistic clinical PK and PD modeling"
-        - "Model-informed drug development for regulatory decision making"
-        - "Virtual clinical trial simulation for dose optimization"
-    - title: Translational Drug Development
+        - "Evidence for dosing and sampling decisions in routine care."
+        - "Bayesian dose individualisation and implementation of model-based dosing tools."
+    - title: Quantitative clinical pharmacology
       items:
-        - "Cross-species model scaling from preclinical to clinical"
-        - "Quantitative prediction of target-mediated drug disposition"
-        - "Risk mitigation strategies for drug toxicity"
-    - title: Neuropharmacology & Blood-Brain Barrier
+        - "Population PK/PD, exposure-response, disease progression, and clinical trial simulation."
+        - "Transparent reporting for clinical, regulatory, and policy-facing audiences."
+    - title: Translational pharmacology
       items:
-        - "Transporter-mediated CNS drug delivery"
-        - "Peripheral organ pathology effects on brain pharmacokinetics"
-        - "Disease-modifying therapy development for neurodegeneration"
-
-- title: Professional Development
-  type: time_table
-  contents:
-    - year: 2023-2024
-      items:
-        - "Artificial Intelligence and Cloud Computing"
-        - "Emerging Biotechnology and Global Governance"
-        - "Big Data Applications in Public Health"
-    - year: 2024
-      items:
-        - "Advanced Probability and Statistical Theory"
-        - "Data Science for Business Analytics"
+        - "PBPK/PD modelling, cross-species extrapolation, and transporter-mediated drug disposition."

@@ -1,9 +1,18 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"EJPS":
+  url: https://www.sciencedirect.com/journal/european-journal-of-pharmaceutical-sciences
+  color: "#005eb8"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Pharmaceutics":
+  url: https://www.mdpi.com/journal/pharmaceutics
+  color: "#006b54"
 
-"Vision":
-  color: "#009f36"
+"DMD":
+  url: https://dmd.aspetjournals.org/
+  color: "#7a3e9d"
+
+"Biomedicines":
+  url: https://www.mdpi.com/journal/biomedicines
+  color: "#b05d00"
+
+"Preprint":
+  color: "#666666"

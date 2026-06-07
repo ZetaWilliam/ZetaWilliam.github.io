@@ -1,9 +1,7 @@
-<div style="display:none">
 ---
 layout: page
-title: news
+title: News
 permalink: /news/
+nav: false
+published: false
 ---
-
-{% include news.liquid %}
-</div>

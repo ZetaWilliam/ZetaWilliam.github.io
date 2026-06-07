@@ -1,18 +1,6 @@
-<div style="display:none">
 ---
 layout: page
-title: submenus
-nav: true
-nav_order: 8
-dropdown: true
-children:
-  - title: publications
-    permalink: /publications/
-  - title: divider
-  - title: projects
-    permalink: /projects/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+title: More
+nav: false
+published: false
 ---
-</div>
