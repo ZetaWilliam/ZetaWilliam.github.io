@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: zackwang.cn/sitemap.xml
+Sitemap: https://zackwang.cn/sitemap.xml
