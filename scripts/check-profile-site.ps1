@@ -67,6 +67,7 @@ Require-Match $linkWorkflow ([regex]::Escape("--exclude 'https://www\.linkedin\.
 Require-Match $cacheBustPlugin "directory: '_sass'" 'The CSS cache key does not read the real Sass directory.'
 Require-NoMatch $cacheBustPlugin "directory: 'assets/_sass'" 'The CSS cache key still reads the nonexistent assets/_sass directory.'
 Require-Match $deployWorkflow '"\*\*/\*\.rb"' 'Ruby plugin changes do not trigger a site deployment.'
+Require-Match $deployWorkflow '"\*\*/\*\.scss"' 'Sass changes do not trigger a site deployment.'
 
 if ($failures.Count -gt 0) {
   $failures | ForEach-Object { Write-Error $_ -ErrorAction Continue }
