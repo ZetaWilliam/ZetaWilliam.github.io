@@ -8,12 +8,12 @@ middle_name: (Zack)
 last_name: Wang
 email: zwan942@aucklanduni.ac.nz
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Doctoral candidate in Pharmacology and Clinical Pharmacology at the University of Auckland, working on quantitative pharmacology, pharmacometrics, and model-informed dosing.
+  PhD candidate in Pharmacology and Clinical Pharmacology at the University of Auckland, specialising in pharmacometrics, clinical trial simulation, disease progression modelling, and model-informed dosing.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: # add your own keywords or leave empty
-  pharmacometrics, quantitative pharmacology, clinical pharmacology, model-informed dosing, population pharmacokinetics, PKPD, PBPK, clinical trial simulation
+  pharmacometrics, clinical pharmacology, clinical trial simulation, model-informed dosing, target concentration intervention, population pharmacokinetics, PKPD, PBPK, disease progression modelling, NONMEM
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: prof_pic.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -31,7 +31,7 @@ back_to_top: true # set to false to disable the back to top button
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -48,7 +48,7 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: false
 socials_in_search: true
 bib_search: true
@@ -87,7 +87,7 @@ kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: # your LinkedIn user name
+linkedin_username: zack-wang-pmx
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: # your ORCID ID

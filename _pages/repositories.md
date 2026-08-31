@@ -2,38 +2,16 @@
 layout: page
 permalink: /repositories/
 title: Code
-description: Public GitHub profile and selected code when available.
+description: Public code and reproducible research workflows.
 nav: true
 nav_order: 5
 ---
 
-{% if site.data.repositories.github_users %}
+My public code is available on GitHub. Research repositories are shared when project governance, data agreements, and publication status allow.
 
-## GitHub
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
+<div class="code-links">
+  <a class="btn btn-outline-primary" href="https://github.com/ZetaWilliam" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-github" aria-hidden="true"></i>
+    View Zack Wang on GitHub
+  </a>
 </div>
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## Selected repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}

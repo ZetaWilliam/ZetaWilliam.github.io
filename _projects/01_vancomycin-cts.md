@@ -1,9 +1,10 @@
 ---
 layout: page
-title: AUC-guided vancomycin simulation
+title: Vancomycin AUC-guided dosing
 description: A reproducible R/NONMEM workflow for comparing model-informed and empirical dosing strategies.
 importance: 1
 category: research
+permalink: /projects/vancomycin-auc-dosing/
 ---
 
 This project evaluates how Bayesian target-concentration intervention and empirical trough-guided dosing behave when the trial setting includes execution events that are common in routine care.

@@ -2,19 +2,36 @@
   type: map
   contents:
     - name: Full Name
-      value: Zehua (Zack) Wang
+      value: Zack (Zehua) Wang
     - name: Current Role
-      value: Doctoral Candidate, School of Medicine, University of Auckland
+      value: PhD Candidate in Pharmacology, University of Auckland
     - name: Field
-      value: Quantitative pharmacology, pharmacometrics, and model-informed dosing
+      value: Pharmacometrics, clinical trial simulation, and model-informed dosing
     - name: Location
       value: Auckland, New Zealand
     - name: Email
       value: <a href="mailto:zwan942@aucklanduni.ac.nz">zwan942@aucklanduni.ac.nz</a>
     - name: University Profile
       value: <a href="https://profiles.auckland.ac.nz/zack-wang" target="_blank" rel="noopener noreferrer">profiles.auckland.ac.nz/zack-wang</a>
+    - name: LinkedIn
+      value: <a href="https://www.linkedin.com/in/zack-wang-pmx/" target="_blank" rel="noopener noreferrer">linkedin.com/in/zack-wang-pmx</a>
     - name: Languages
       value: English; Chinese (Mandarin); Chinese (Cantonese)
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Academic Casual
+      institution: University of Auckland, Faculty of Medical and Health Sciences
+      year: Aug 2026-Present
+      description:
+        - "Supports academic activities within the Faculty of Medical and Health Sciences."
+
+    - title: Professional Casual
+      institution: University of Auckland, Department of Pharmacology and Clinical Pharmacology
+      year: Dec 2025-Jul 2026
+      description:
+        - "Supported academic, research, and operational activities, including developing R Shiny applications and virtual simulation exercises for MEDSCI 318."
 
 - title: Education
   type: time_table
@@ -24,8 +41,7 @@
       year: 2025-Present
       description:
         - "Doctoral research: Advancing the Evidence for Model-Based Dosing in the Clinical Setting."
-        - "Evaluates how model-informed dosing tools such as NextDose can support dosing, sampling, and implementation decisions for high-risk medicines."
-        - "Uses clinical trial simulation, population PK/PD modelling, optimal design, and retrospective assessment of model-based dosing frameworks."
+        - "Uses pharmacometrics, clinical trial simulation, and nonlinear mixed-effects modelling to study dose selection, treatment effects, and disease progression."
 
     - title: Master of Science
       institution: China Pharmaceutical University, Nanjing, China
@@ -43,26 +59,25 @@
 - title: Selected Research
   type: time_table
   contents:
-    - title: Model-based dosing evidence in routine clinical care
+    - title: Model-informed dosing and target concentration intervention
       institution: University of Auckland
       year: 2025-Present
       description:
-        - "Uses clinical trial simulation and population PK/PD modelling to evaluate how model-informed dosing tools may support dosing, sampling, and implementation decisions for high-risk medicines."
-        - "Keeps assumptions, uncertainty, and limits of model-based inference explicit for clinical, regulatory, and health-system readers."
+        - "Uses clinical trial simulation and population PK/PD modelling to evaluate dosing and sampling strategies for high-risk medicines."
+        - "Current work includes vancomycin AUC-guided dosing and Bayesian dose prediction in infectious diseases."
 
-    - title: AUC-guided vancomycin clinical trial simulation
+    - title: Disease progression modelling in Alzheimer's disease
       institution: University of Auckland
-      year: 2026
+      year: 2025-Present
       description:
-        - "Built an R/NONMEM/Wings for NONMEM workflow comparing Bayesian target-concentration intervention with empirical trough-guided dosing under clinically realistic execution events."
-        - "The N=200 reproduction run tracked AUC24 target-window attainment, dosing delays, missed or cancelled doses, missing samples, and dropout."
-        - "Reports simulation findings as design evidence, not as direct clinical recommendations."
+        - "Uses longitudinal models to quantify disease progression and treatment effects while keeping estimands, time windows, and uncertainty explicit."
 
-    - title: Translational PBPK/PD and drug-disposition modelling
+    - title: PBPK/PD modelling of antibody-drug conjugates
       institution: China Pharmaceutical University
       year: 2022-2025
       description:
-        - "Developed and contributed to PBPK, PBPK/PD, and transporter-mediated drug-disposition analyses across antibody-drug conjugates, neuroprotective agents, and liver-injury models."
+        - "Developed a translational PBPK-PD model to predict pharmacokinetics, tumour growth inhibition, and toxicity risks of topoisomerase inhibitor antibody-drug conjugates in mice and humans."
+        - "Contributed to PBPK and transporter-mediated drug-disposition analyses across SPT-07A and liver-injury models."
 
 - title: Selected Publications
   type: list
@@ -82,7 +97,7 @@
         - "Model evaluation with diagnostic plots, simulation-based checks, sensitivity analyses, and traceable assumptions."
     - title: Software and reproducible workflows
       items:
-        - "R, NONMEM, Wings for NONMEM, Monolix, Phoenix WinNonlin, PK-Sim, and Berkeley Madonna."
+        - "NONMEM, R, Phoenix WinNonlin, Python, Wings for NONMEM, Monolix, PK-Sim, and Berkeley Madonna."
         - "R Markdown or Quarto-style reporting, Git-based version control, and automated tables and figures."
     - title: Biomedical and translational methods
       items:
@@ -112,7 +127,7 @@
       items:
         - "Evidence for dosing and sampling decisions in routine care."
         - "Bayesian dose individualisation and implementation of model-based dosing tools."
-    - title: Quantitative clinical pharmacology
+    - title: Pharmacometrics and clinical pharmacology
       items:
         - "Population PK/PD, exposure-response, disease progression, and clinical trial simulation."
         - "Transparent reporting for clinical, regulatory, and policy-facing audiences."

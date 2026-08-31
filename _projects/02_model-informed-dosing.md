@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Evidence for model-informed dosing
-description: PhD research on dosing, sampling, and implementation evidence for high-risk medicines.
+title: Model-informed dosing and TCI
+description: Dosing, sampling, and implementation evidence for high-risk medicines.
 importance: 2
 category: research
+permalink: /projects/model-informed-dosing/
 ---
 
 My doctoral research asks what evidence is needed for model-informed dosing tools to be useful in routine clinical care.

@@ -2,8 +2,9 @@
 layout: page
 title: Translational PBPK/PD modelling
 description: Earlier work on PBPK/PD models, drug disposition, and cross-species extrapolation.
-importance: 3
+importance: 4
 category: research
+permalink: /projects/translational-pbpk/
 ---
 
 Before my PhD, I worked on translational PBPK/PD and drug-disposition questions at China Pharmaceutical University.

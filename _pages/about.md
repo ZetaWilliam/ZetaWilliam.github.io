@@ -2,26 +2,24 @@
 layout: about
 title: About
 permalink: /
-subtitle: Quantitative pharmacology, clinical pharmacology, and model-informed dosing.
+subtitle: Pharmacometrics, clinical trial simulation, and model-informed dosing.
 
 profile:
   align: right
   image: prof_pic_big.png
   image_circular: false
   more_info: >
-    <p>Doctoral Candidate<br>School of Medicine, University of Auckland</p>
-    <p>Email: <a href='mailto:zwan942@aucklanduni.ac.nz'>zwan942@aucklanduni.ac.nz</a></p>
+    <p>PhD Candidate<br>University of Auckland</p>
     <p>Auckland, New Zealand</p>
+    <p><a href='mailto:zwan942@aucklanduni.ac.nz'>Email</a> · <a href='https://www.linkedin.com/in/zack-wang-pmx/' target='_blank' rel='noopener noreferrer'>LinkedIn</a></p>
 
 news: false
-selected_papers: true
-social: true
+selected_papers: false
+social: false
 ---
 
-I am Zehua (Zack) Wang, a doctoral candidate in Pharmacology and Clinical Pharmacology at the University of Auckland's School of Medicine. My work is centred on a practical question: what evidence is needed for model-informed dosing to be useful in routine clinical care?
+I am Zack (Zehua) Wang, a PhD candidate in Pharmacology and Clinical Pharmacology at the University of Auckland. I specialise in pharmacometrics, population pharmacokinetic and pharmacodynamic modelling, clinical trial simulation, disease progression modelling, and model-informed dosing.
 
-My doctoral research, _Advancing the Evidence for Model-Based Dosing in the Clinical Setting_, evaluates dosing and sampling decisions for high-risk medicines through clinical trial simulation, population pharmacokinetic/pharmacodynamic modelling, optimal design, and retrospective assessment of existing model-based dosing frameworks. I aim to make quantitative evidence clear enough for clinicians, pharmacometricians, and health-system decision makers to use and challenge.
+My research uses nonlinear mixed-effects models and simulation to support dose selection and to quantify treatment effects and disease progression. Current work includes vancomycin area under the concentration-time curve (AUC)-guided dosing and Bayesian dose prediction in infectious diseases, disease progression modelling in Alzheimer's disease, and physiologically based pharmacokinetic and pharmacodynamic modelling of antibody-drug conjugates.
 
-Before Auckland, I completed an M.Sc. at China Pharmaceutical University and a B.Eng. at Shandong First Medical University. My earlier work focused on translational PBPK/PD and drug-disposition modelling, including topoisomerase inhibitor antibody-drug conjugates, SPT-07A, transporter-mediated effects of liver injury, and metformin exposure in acute liver injury.
-
-I like work that is quantitative without becoming opaque: reproducible code, explicit assumptions, careful model diagnostics, and results that can be read by people outside the modelling room. I am especially interested in clinical trial simulation, model-informed dosing, antimicrobial dosing, optimal sampling, and implementation evidence for pharmacometrics in healthcare.
+I use NONMEM, R, Phoenix WinNonlin, and Python, and have contributed pharmacometric analyses to industry-sponsored phase I and II clinical trials. I am interested in opportunities in pharmacometrics, clinical pharmacology, regulatory science, and model-informed drug development across pharmaceutical companies, biotechnology organisations, and contract research organisations.
