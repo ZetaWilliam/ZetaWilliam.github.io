@@ -49,4 +49,4 @@ jobs:
         with:
           fail: true
           # removed md files that include liquid tags
-          args: --user-agent 'curl/7.54' --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _pages/dropdown.md --exclude-path _pages/news.md --exclude-path _pages/profiles.md --exclude-path _pages/teaching.md --verbose --no-progress '_pages/*.md' '_projects/*.md'
+          args: --user-agent 'curl/7.54' --exclude 'https://www\.linkedin\.com/.*' --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _pages/dropdown.md --exclude-path _pages/news.md --exclude-path _pages/profiles.md --exclude-path _pages/teaching.md --verbose --no-progress '_pages/*.md' '_projects/*.md'
