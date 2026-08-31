@@ -52,6 +52,7 @@ git commit -m "Add editorial site regression contract"
 - Modify: `_layouts/about.liquid`
 - Modify: `_layouts/page.liquid`
 - Modify: `_layouts/cv.liquid`
+- Modify: `_layouts/bib.liquid`
 - Modify: `_includes/projects.liquid`
 - Modify: `_pages/about.md`
 - Modify: `_pages/projects.md`
@@ -84,7 +85,7 @@ Use `profile-hero` around the existing identity and photograph. Add four `resear
 
 - [ ] **Step 3: Add project and Code hooks**
 
-Render a deterministic two-digit `project-index` from the project loop and add `code-intro` around the existing Code copy. Preserve each project destination and the GitHub URL.
+Render a deterministic two-digit `project-index` from the project loop, add an empty `publication-index` marker that CSS counters can number without changing bibliography data, and add `code-intro` around the existing Code copy. Preserve each project destination, publication control, DOI, and GitHub URL.
 
 - [ ] **Step 4: Run source checks and formatting**
 
@@ -93,7 +94,7 @@ Run the contract and Prettier on all modified Liquid and Markdown files. Expecte
 - [ ] **Step 5: Commit semantic structure**
 
 ```powershell
-git add _layouts/about.liquid _layouts/page.liquid _layouts/cv.liquid _includes/projects.liquid _pages/about.md _pages/projects.md _pages/repositories.md
+git add _layouts/about.liquid _layouts/page.liquid _layouts/cv.liquid _layouts/bib.liquid _includes/projects.liquid _pages/about.md _pages/projects.md _pages/repositories.md
 git commit -m "Add editorial structure across profile pages"
 ```
 
