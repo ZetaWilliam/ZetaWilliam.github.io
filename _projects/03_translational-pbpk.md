@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Translational PBPK/PD modelling
+eyebrow: Research project
 description: Earlier work on PBPK/PD models, drug disposition, and cross-species extrapolation.
 importance: 4
 category: research

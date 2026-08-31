@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Projects
+eyebrow: Current and previous work
 permalink: /projects/
-description: Current and previous pharmacometrics research.
+description: Pharmacometrics research across dosing, clinical trials, disease progression, and translational modelling.
 nav: true
 nav_order: 4
 display_categories: [research]

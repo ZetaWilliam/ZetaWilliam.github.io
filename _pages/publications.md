@@ -2,6 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
+eyebrow: Peer-reviewed research
 description: Peer-reviewed publications in pharmacometrics, clinical pharmacology, and drug disposition.
 nav: true
 nav_order: 3

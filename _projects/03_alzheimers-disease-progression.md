@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Alzheimer's disease progression
+eyebrow: Research project
 description: Longitudinal modelling of treatment effects and disease progression.
 importance: 3
 category: research

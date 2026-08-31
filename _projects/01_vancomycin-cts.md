@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Vancomycin AUC-guided dosing
+eyebrow: Research project
 description: A reproducible R/NONMEM workflow for comparing model-informed and empirical dosing strategies.
 importance: 1
 category: research
