@@ -1768,13 +1768,13 @@ button:focus-visible,
 
     .abbr abbr {
       padding: 0.35rem 0.45rem;
-      background: var(--global-editorial-surface);
+      background: var(--global-editorial-surface) !important;
       border: 1px solid var(--global-divider-color);
       border-radius: 2px !important;
 
       div,
       a {
-        color: var(--global-editorial-accent-strong);
+        color: var(--global-editorial-accent-strong) !important;
         font-size: 0.68rem;
         font-weight: 700;
       }
@@ -1900,16 +1900,18 @@ button:focus-visible,
 .code-links .btn {
   min-height: 44px;
   padding: 0.65rem 0.9rem;
-  color: var(--global-bg-color);
-  background: var(--global-editorial-accent);
-  border-color: var(--global-editorial-accent);
+  color: var(--global-bg-color) !important;
+  background: var(--global-editorial-accent) !important;
+  border-color: var(--global-editorial-accent) !important;
   border-radius: 2px;
+  box-shadow: none;
   font-weight: 600;
+  text-transform: none;
 
   &:hover {
-    color: var(--global-bg-color);
-    background: var(--global-editorial-accent-strong);
-    border-color: var(--global-editorial-accent-strong);
+    color: var(--global-bg-color) !important;
+    background: var(--global-editorial-accent-strong) !important;
+    border-color: var(--global-editorial-accent-strong) !important;
     text-decoration: none;
   }
 }
