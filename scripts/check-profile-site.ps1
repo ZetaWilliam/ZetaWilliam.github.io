@@ -71,6 +71,7 @@ Require-NoMatch $cvTimeTable 'style="min-width:\s*75px"' 'CV date labels still u
 Require-Match $themes '--global-bg-color:\s*#f2f5f3' 'The light theme still uses an uncomfortable pure-white page background.'
 Require-Match $styles 'body\s*\{[^}]*font-weight:\s*400' 'The site body text remains too light.'
 Require-Match $styles '\.card\s+\.list-group-item\s*\{' 'The CV date override is not specific enough to beat the theme badge rule.'
+Require-Match $styles '\.card\s+\.list-group-item\s+\.row\s*\{' 'The mobile CV row override is not specific enough to stack dates above entry text.'
 Require-Match $linkWorkflow ([regex]::Escape("--exclude 'https://www\.linkedin\.com/.*'")) 'The source link check does not exclude LinkedIn anti-bot responses.'
 Require-Match $cacheBustPlugin "directory: '_sass'" 'The CSS cache key does not read the real Sass directory.'
 Require-NoMatch $cacheBustPlugin "directory: 'assets/_sass'" 'The CSS cache key still reads the nonexistent assets/_sass directory.'

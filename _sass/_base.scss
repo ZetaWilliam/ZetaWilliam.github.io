@@ -2007,12 +2007,12 @@ button:focus-visible,
       padding: 1.15rem 0 !important;
     }
 
-    .list-group-item .row {
+    .card .list-group-item .row {
       grid-template-columns: 1fr;
       gap: 0.6rem;
     }
 
-    .list-group-item .cv-date-column {
+    .card .list-group-item .cv-date-column {
       margin-bottom: 0.6rem;
     }
   }
