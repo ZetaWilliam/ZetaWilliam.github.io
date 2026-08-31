@@ -28,6 +28,7 @@ $bibliography = Read-Source '_bibliography/papers.bib'
 $repositories = Read-Source '_pages/repositories.md'
 $styles = Read-Source '_sass/_base.scss'
 $linkWorkflow = Read-Source '.github/workflows/broken-links.yml'
+$cacheBustPlugin = Read-Source '_plugins/cache-bust.rb'
 $publicText = @($config, $about, $cvData, $publications, $bibliography) -join "`n"
 
 Require-NoMatch $publicText '(?i)quantitative pharmacology' 'Rejected phrase remains in public site content.'
@@ -47,6 +48,8 @@ Require-Match $repositories 'https://github\.com/ZetaWilliam' 'The Code page lac
 Require-Match $styles '--profile-width:' 'Responsive profile sizing is not defined.'
 Require-Match $styles '\.projects\s+\.card-title' 'Project-card title sizing is not constrained.'
 Require-Match $linkWorkflow ([regex]::Escape("--exclude 'https://www\.linkedin\.com/.*'")) 'The source link check does not exclude LinkedIn anti-bot responses.'
+Require-Match $cacheBustPlugin "directory: '_sass'" 'The CSS cache key does not read the real Sass directory.'
+Require-NoMatch $cacheBustPlugin "directory: 'assets/_sass'" 'The CSS cache key still reads the nonexistent assets/_sass directory.'
 
 if ($failures.Count -gt 0) {
   $failures | ForEach-Object { Write-Error $_ -ErrorAction Continue }
