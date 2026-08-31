@@ -29,6 +29,7 @@ $repositories = Read-Source '_pages/repositories.md'
 $styles = Read-Source '_sass/_base.scss'
 $linkWorkflow = Read-Source '.github/workflows/broken-links.yml'
 $cacheBustPlugin = Read-Source '_plugins/cache-bust.rb'
+$deployWorkflow = Read-Source '.github/workflows/deploy.yml'
 $publicText = @($config, $about, $cvData, $publications, $bibliography) -join "`n"
 
 Require-NoMatch $publicText '(?i)quantitative pharmacology' 'Rejected phrase remains in public site content.'
@@ -50,6 +51,7 @@ Require-Match $styles '\.projects\s+\.card-title' 'Project-card title sizing is 
 Require-Match $linkWorkflow ([regex]::Escape("--exclude 'https://www\.linkedin\.com/.*'")) 'The source link check does not exclude LinkedIn anti-bot responses.'
 Require-Match $cacheBustPlugin "directory: '_sass'" 'The CSS cache key does not read the real Sass directory.'
 Require-NoMatch $cacheBustPlugin "directory: 'assets/_sass'" 'The CSS cache key still reads the nonexistent assets/_sass directory.'
+Require-Match $deployWorkflow '"\*\*/\*\.rb"' 'Ruby plugin changes do not trigger a site deployment.'
 
 if ($failures.Count -gt 0) {
   $failures | ForEach-Object { Write-Error $_ -ErrorAction Continue }
